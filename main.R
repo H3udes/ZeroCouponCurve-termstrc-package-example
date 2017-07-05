@@ -41,4 +41,6 @@ source('functionszc.R')
 bonds <- bond.data("MotherTable.csv","CF.csv")
 ytm <- ytm.data("YTM.csv","CFYTM.csv")
 
+# Fitting models:
+
 fitted.models <- zc.curve(Bonds = bonds)
